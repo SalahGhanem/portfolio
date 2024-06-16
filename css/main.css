@@ -114,4 +114,5 @@ margin-bottom: 0px;
 .contant-image{
     width: 20%;
     height: 20%;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.6));
 }
