@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar {
+    position: sticky;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.content p {
+    margin: 0 0 20px;
+    line-height: 1.5;
+}
+
+/* Media query for screens less than 768px wide */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+    .content {
+        padding: 10px;
+    }
+}
