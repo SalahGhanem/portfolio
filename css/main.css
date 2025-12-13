@@ -42,6 +42,9 @@ h1 {
 .scrol-list h3 {
     font-size: 4vh;
     font-weight: normal;
+    text-align: justify;
+    white-space: normal;
+
 }
 
 .scrol-list h1 {
