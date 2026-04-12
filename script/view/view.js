@@ -44,7 +44,10 @@ fetch('json/salahghanem.json')
             li.textContent = element;
             skills.appendChild(li);
         });
-    }).catch(err => console.log(err));
+    }).catch(err => {
+    summary.textContent = "fail";
+    console.log(err);
+  });
 
 
 
