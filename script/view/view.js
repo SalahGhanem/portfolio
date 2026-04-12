@@ -3,7 +3,7 @@ let education = document.getElementById('education-list')
 let experiance = document.getElementById('experiance-list')
 let certificate = document.getElementById('certificate-list')
 let skills = document.getElementById('skills-list')
-fetch('../json/salahghanem.json')
+fetch('json/salahghanem.json')
     .then(response => response.json())
     .then(data => {
         let sum = document.createElement('h3');
