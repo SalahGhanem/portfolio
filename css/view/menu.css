@@ -1,0 +1,78 @@
+.menu {
+    position: sticky;
+    background-color: rgb(230, 230, 230);
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.name{
+    color: white;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px 5px grey;
+    
+
+}
+.menu-list {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%; /* تأكد من أن القائمة تأخذ العرض الكامل */
+}
+
+.menu-list li:not(.per) {
+    list-style: none;
+    width: 90%; /* تحديد عرض موحد لجميع عناصر القائمة */
+    margin: 5px auto; /* تباعد بين العناصر */
+    display: flex;
+    justify-content: center; /* مركز محاذاة العناصر بداخلها */
+    height: 6%;
+}
+
+.menu-list a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* تباعد بين الأيقونة والنص */
+    padding: 10px 15px; /* زيادة التباعد الداخلي */
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    width: 100%; /* تأكد من أن الرابط يأخذ العرض الكامل للعناصر */
+    box-sizing: border-box; /* شمل الحشوة وحدود العنصر في حساب العرض */
+    transition: background-color 0.3s ease, transform 0.3s, font-size 0.3s;
+}
+.menu-list a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+    font-size: 1.2em;
+}
+.personalimg {
+    width: 70%;
+    height: 70%;
+    border: 2px solid rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around; /* مركز محاذاة الصورة */
+}
+
+.personalimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.per {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.8));
+    /* height: 70%; */
+}
