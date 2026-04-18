@@ -1,7 +1,7 @@
 .main {
-    /* background-image:url("../src/main.JPG");
+    background-image:url("src/main.JPG");
     background-size: cover; 
-    background-position: center; */
+    background-position: center;
     background-color: rgb(221, 221, 221);
     height: 100vh;
     display: inline-block;
