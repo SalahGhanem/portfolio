@@ -1,6 +1,6 @@
 .main {
     background-color: rgb(221, 221, 221);
-    background-image:url("src/main.JPG");
+    background-image:url("../../src/main.JPG");
     background-size: cover; 
     background-position: center;
     height: 100vh;
