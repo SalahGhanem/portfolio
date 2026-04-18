@@ -37,43 +37,85 @@
       "period": "8/2022 - 10/2022"
     }
   ],
-  "certificates": [
-    {
-      "name": "Fullstack Development",
-      "duration": "80 Days",
-      "provider": "The Learn Hub",
-      "year": 2023
-    },
-    {
-      "name": "Python AI (Machine Learning)",
-      "duration": "60 Hours",
-      "provider": "The Hope International Company",
-      "year": 2023
-    },
-    {
-      "name": "ASP.NET",
-      "duration": "40 Hours",
-      "provider": "The Hope International Company",
-      "year": 2023
-    },
-    {
-      "name": "PHP",
-      "duration": "40 Hours",
-      "provider": "The Hope International Company",
-      "year": 2022
-    },
-    {
-      "name": "Flutter",
-      "duration": "40 Hours",
-      "provider": "The Hope International Company",
-      "year": 2022
-    },
-    {
-      "name": "Fundamentals of Digital Marketing",
-      "provider": "Google",
-      "year": 2021
-    }
-  ],
+"certificates": [
+  {
+    "name": "International Computer Driving Licence (ICDL)",
+    "duration": "36 Hours",
+    "provider": "ABE & Arab International Academy for Training Consulting",
+    "year": 2026
+  },
+  {
+    "name": "CCNA",
+    "duration": "60 Hours",
+    "provider": "The Hope International Company",
+    "year": 2025
+  },
+  {
+    "name": "QA Software Testing",
+    "duration": "40 Hours",
+    "provider": "The Hope International Company",
+    "year": 2025
+  },
+  {
+    "name": "UI/UX Design",
+    "duration": "32 Hours",
+    "provider": "The Hope International Company",
+    "year": 2025
+  },
+  {
+    "name": "Java SE",
+    "duration": "34 Hours",
+    "provider": "The Hope International Company",
+    "year": 2024
+  },
+  {
+    "name": "Node.js",
+    "duration": "36 Hours",
+    "provider": "The Hope International Company",
+    "year": 2024
+  },
+  {
+    "name": "Certified Ethical Hacker",
+    "duration": "50 Hours",
+    "provider": "The Hope International Company",
+    "year": 2023
+  },
+  {
+    "name": "Python AI (Machine Learning)",
+    "duration": "60 Hours",
+    "provider": "The Hope International Company",
+    "year": 2023
+  },
+  {
+    "name": "ASP.NET (MVC)",
+    "duration": "40 Hours",
+    "provider": "The Hope International Company",
+    "year": 2023
+  },
+  {
+    "name": "Fullstack Development",
+    "duration": "80 Days",
+    "provider": "The Learn Hub",
+    "year": 2023
+  },
+  {
+    "name": "Flutter",
+    "duration": "40 Hours",
+    "provider": "The Hope International Company",
+    "year": 2022
+  },
+  {
+    "name": "PHP",
+    "duration": "40 Hours",
+    "provider": "The Hope International Company",
+    "year": 2022
+  },
+  {
+    "name": "Fundamentals of Digital Marketing",
+    "provider": "Google",
+    "year": 2021
+  }
+],
   "skills": [
     "OOP",
     "Algorithms",
