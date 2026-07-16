@@ -1,0 +1,137 @@
+{
+  "personal": {
+    "name": "صلاح غانم",
+    "image": "../src/per.JPG",
+    "title": "مبرمج مبتدئ"
+  },
+  "summary": "مبرمج مبتدئ متخصص في تطوير مواقع الويب. لديه معرفة بجميع مراحل دورة تطوير مشاريع الويب. وعلى دراية بالعديد من لغات البرمجة، بما في ذلك HTML وPHP وJavaScript وCSS وSQL وJava وC++.",
+  "education": {
+    "degree": "بكالوريوس علوم الحاسوب",
+    "grade": "ممتاز - 3.7 / 4",
+    "university": "جامعة البلقاء التطبيقية",
+    "year": 2022
+  },
+  "experience": [
+    {
+      "title": "Python AI (Machine Learning)",
+      "type": "كمتدرب",
+      "company": "شركة الأمل الدولية",
+      "period": "1/2023 - 4/2023"
+    },
+    {
+      "title": "ASP.NET (MVC)",
+      "type": "كمتدرب",
+      "company": "شركة الأمل الدولية",
+      "period": "11/2022 - 1/2023"
+    },
+    {
+      "title": "PHP",
+      "type": "كمتدرب",
+      "company": "شركة الأمل الدولية",
+      "period": "8/2022 - 10/2022"
+    },
+    {
+      "title": "Flutter",
+      "type": "كمتدرب",
+      "company": "شركة الأمل الدولية",
+      "period": "8/2022 - 10/2022"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "International Computer Driving Licence (ICDL)",
+      "duration": "36 ساعة",
+      "provider": "ABE & Arab International Academy for Training Consulting",
+      "year": 2026
+    },
+    {
+      "name": "CCNA",
+      "duration": "60 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2025
+    },
+    {
+      "name": "QA Software Testing",
+      "duration": "40 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2025
+    },
+    {
+      "name": "UI/UX Design",
+      "duration": "32 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2025
+    },
+    {
+      "name": "Java SE",
+      "duration": "34 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2024
+    },
+    {
+      "name": "Node.js",
+      "duration": "36 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2024
+    },
+    {
+      "name": "Certified Ethical Hacker",
+      "duration": "50 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2023
+    },
+    {
+      "name": "Python AI (Machine Learning)",
+      "duration": "60 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2023
+    },
+    {
+      "name": "ASP.NET (MVC)",
+      "duration": "40 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2023
+    },
+    {
+      "name": "Fullstack Development",
+      "duration": "80 يومًا",
+      "provider": "The Learn Hub",
+      "year": 2023
+    },
+    {
+      "name": "Flutter",
+      "duration": "40 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2022
+    },
+    {
+      "name": "PHP",
+      "duration": "40 ساعة",
+      "provider": "شركة الأمل الدولية",
+      "year": 2022
+    },
+    {
+      "name": "Fundamentals of Digital Marketing",
+      "provider": "Google",
+      "year": 2021
+    }
+  ],
+  "skills": [
+    "البرمجة كائنية التوجه",
+    "الخوارزميات",
+    "هياكل البيانات",
+    "إدارة المشاريع",
+    "اتخاذ القرارات بفعالية",
+    "حل المشكلات المعقدة",
+    "التصميم الإبداعي",
+    "الابتكار",
+    "التركيز على تقديم الخدمة"
+  ],
+  "contact": {
+    "linkedin": "www.linkedin.com/in/sallah-gh",
+    "facebook": "https://www.facebook.com/sallah.ghanem?mibextid=kFxxJD",
+    "whatsapp": "https://wa.me/qr/YZYJSYZC3G7NG1",
+    "telegram": "https://t.me/sallah_ghanem",
+    "phone": "00962780724397"
+  }
+}
