@@ -31,8 +31,8 @@ fetch("../json/arabic.json")
     data.certificates.forEach((element) => {
       let exo1 = document.createElement("li");
       let exo2 = document.createElement("li");
-      let text = element.name + " | " + element.duration;
-      exo1.appendChild(document.createTextNode(text));
+      exo1.innerHTML =
+        `<span dir="ltr">${element.duration} | ${element.name}</span>`;
       certificate.appendChild(exo1);
       exo2.innerHTML = element.provider + " | " + element.year;
       certificate.appendChild(exo2);
