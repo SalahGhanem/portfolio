@@ -3,7 +3,7 @@ let education = document.getElementById("education-list");
 let experiance = document.getElementById("experiance-list");
 let certificate = document.getElementById("certificate-list");
 let skills = document.getElementById("skills-list");
-fetch("json/salahghanem.json")
+fetch("../json/arabic.json")
   .then((response) => response.json())
   .then((data) => {
     let sum = document.createElement("h3");
@@ -31,7 +31,8 @@ fetch("json/salahghanem.json")
     data.certificates.forEach((element) => {
       let exo1 = document.createElement("li");
       let exo2 = document.createElement("li");
-      exo1.innerHTML = element.name + " | " + element.duration;
+      exo1.innerHTML =
+        `<span dir="ltr">${element.duration} | ${element.name}</span>`;
       certificate.appendChild(exo1);
       exo2.innerHTML = element.provider + " | " + element.year;
       certificate.appendChild(exo2);
