@@ -3,36 +3,42 @@
         position: fixed;
         bottom: 0;
         width: 100%;
-        height: 20%; /* Adjusted height to accommodate two rows */
+        height: 20%;
+        /* Adjusted height to accommodate two rows */
         background-color: #fff;
         box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     }
-    
+
     .per {
         display: none;
     }
 
     .menu-list {
         display: flex;
-        flex-wrap: wrap; /* Allows wrapping of items */
+        flex-wrap: wrap;
+        /* Allows wrapping of items */
         justify-content: space-around;
         padding-left: 10px;
         padding-right: 10px;
     }
 
     .menu-list li {
-        flex: 1 0 30%; /* Adjusted to fit three items per row */
-        max-width: 30%; /* Ensure items do not exceed 30% of the container's width */
+        flex: 1 0 30%;
+        /* Adjusted to fit three items per row */
+        max-width: 30%;
+        /* Ensure items do not exceed 30% of the container's width */
         text-align: center;
-        height: 40% !important; /* Adjust height as needed */
+        height: 25% !important;
+        /* Adjust height as needed */
     }
 
     .menu-list li a {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        padding: 10px 0;
-        width: 100%; /* Adjust width to fit the container */
+        padding: 0;
+        width: 100%;
+        /* Adjust width to fit the container */
         text-align: center;
         justify-content: center;
         font-size: 100%;
@@ -48,29 +54,39 @@
         flex: 1;
         padding-bottom: 60px;
         /* margin-bottom: 20%; */
-        background-size: cover; 
-        background-image:url("../../src/main.JPG");
+        background-size: cover;
+        background-image: url("../../src/main.JPG");
         background-position: center;
     }
-    .scroll-list{
+
+    .scroll-list {
         width: 100%;
     }
-    .scrol-list > li:nth-child(even) {
+
+    .scrol-list>li:nth-child(even) {
         background-color: rgba(255, 255, 255, 0.5);
     }
-    .scrol-list > li:nth-child(odd) ,.scrol-list li:nth-child(odd) h1 ,.scrol-list li:nth-child(odd) h3{
+
+    .scrol-list>li:nth-child(odd),
+    .scrol-list li:nth-child(odd) h1,
+    .scrol-list li:nth-child(odd) h3 {
         color: #fff !important;
     }
+
     .scrol-list li:nth-child(odd) h1 {
         border-bottom: #fff 1px solid !important;
     }
-    .scrol-list h3 , .skills , .internal-list> li{
+
+    .scrol-list h3,
+    .skills,
+    .internal-list>li {
         font-size: 2vh !important;
-    } 
-   
-    .scrol-list h1{
+    }
+
+    .scrol-list h1 {
         font-size: 4vh;
-    } 
+    }
+
     .main-scroll {
         overflow-y: auto;
         height: 89%;
@@ -79,46 +95,61 @@
     .scroll-item {
         padding: 10px;
     }
+
     .contact-links {
         display: flex;
-        flex-wrap: wrap; /* Allows wrapping of items */
+        flex-wrap: wrap;
+        /* Allows wrapping of items */
         justify-content: space-around;
         padding-left: 10px;
         padding-right: 10px;
     }
 
     .contact-links li {
-        flex: 1 0 40%; /* Adjusted to fit three items per row */
-        max-width: 40%; /* Ensure items do not exceed 30% of the container's width */
+        flex: 1 0 40%;
+        /* Adjusted to fit three items per row */
+        max-width: 40%;
+        /* Ensure items do not exceed 30% of the container's width */
         text-align: center;
-        height: 40% !important; /* Adjust height as needed */
+        height: 40% !important;
+        /* Adjust height as needed */
     }
-    .menu-list p{
+
+    .menu-list p {
         margin: 0px !important;
     }
-    .main-view{
-        display:block;
-        background-color: rgba(0, 0, 0, 0)!important;
+
+    .main-view {
+        display: block;
+        background-color: rgba(0, 0, 0, 0) !important;
         border: none !important;
         height: 100vh;
 
         text-align: center !important;
     }
-    .main-name{
+
+    .main-name {
         margin-top: calc(40vh) !important;
         font-family: 'Times New Roman', Times, serif !important;
         -webkit-text-stroke: 2px black;
         font-size: 10vh;
     }
-    .end-list{
+
+    .end-list {
         display: block;
         height: 70% !important;
     }
-    .contant-image{
+
+    .contant-image {
         width: 90%;
         height: 90%;
-        background-color:rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.5);
         border-radius: 50%;
         border: #fff 3px solid;
+    }
+
+    #language {
+        flex: 1;
+        max-width: 97%;
     }
 }
