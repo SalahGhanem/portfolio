@@ -38,83 +38,86 @@
     }
   ],
   "certificates": [
-    {
-      "name": "International Computer Driving Licence (ICDL)",
-      "duration": "36 ساعة",
-      "provider": "ABE & Arab International Academy for Training Consulting",
-      "year": 2026
-    },
-    {
-      "name": "CCNA",
-      "duration": "60 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2025
-    },
-    {
-      "name": "QA Software Testing",
-      "duration": "40 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2025
-    },
-    {
-      "name": "UI/UX Design",
-      "duration": "32 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2025
-    },
-    {
-      "name": "Java SE",
-      "duration": "34 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2024
-    },
-    {
-      "name": "Node.js",
-      "duration": "36 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2024
-    },
-    {
-      "name": "Certified Ethical Hacker",
-      "duration": "50 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2023
-    },
-    {
-      "name": "Python AI (Machine Learning)",
-      "duration": "60 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2023
-    },
-    {
-      "name": "ASP.NET (MVC)",
-      "duration": "40 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2023
-    },
-    {
-      "name": "Fullstack Development",
-      "duration": "80 يومًا",
-      "provider": "The Learn Hub",
-      "year": 2023
-    },
-    {
-      "name": "Flutter",
-      "duration": "40 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2022
-    },
-    {
-      "name": "PHP",
-      "duration": "40 ساعة",
-      "provider": "شركة الأمل الدولية",
-      "year": 2022
-    },
-    {
-      "name": "Fundamentals of Digital Marketing",
-      "provider": "Google",
-      "year": 2021
-    }
+
+  {
+    "name": "International Computer Driving Licence (ICDL)",
+    "duration": "36 ساعة",
+    "provider": "ABE & Arab International Academy for Training Consulting",
+    "year": 2026
+  },
+  {
+    "name": "CCNA",
+    "duration": "60 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2025
+  },
+  {
+    "name": "QA Software Testing",
+    "duration": "40 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2025
+  },
+  {
+    "name": "UI/UX Design",
+    "duration": "32 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2025
+  },
+  {
+    "name": "Java SE",
+    "duration": "34 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2024
+  },
+  {
+    "name": "Node.js",
+    "duration": "36 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2024
+  },
+  {
+    "name": "Certified Ethical Hacker",
+    "duration": "50 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2023
+  },
+  {
+    "name": "Python AI (Machine Learning)",
+    "duration": "60 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2023
+  },
+  {
+    "name": "ASP.NET (MVC)",
+    "duration": "40 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2023
+  },
+  {
+    "name": "Fullstack Development",
+    "duration": "80 يومًا",
+    "provider": "The Learn Hub",
+    "year": 2023
+  },
+  {
+    "name": "Flutter",
+    "duration": "40 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2022
+  },
+  {
+    "name": "PHP",
+    "duration": "40 ساعة",
+    "provider": "شركة الأمل الدولية",
+    "year": 2022
+  },
+  {
+    "name": "Fundamentals of Digital Marketing",
+    "duration": "3 ساعات",
+    "provider": "Google",
+    "year": 2021
+  }
+
   ],
   "skills": [
     "البرمجة كائنية التوجه",
